@@ -1,0 +1,197 @@
+/* UserDetails.css */
+
+.user-details-container {
+  width: 360px;
+  height: 820px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo1 {
+  margin-left: 250px;
+}
+
+.logo {
+  text-align: center;
+  margin-left: 125px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  font-family: Mulish;
+  font-weight: bold;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #5e5e5e82;
+  color: #fff;
+  border: none;
+  box-shadow: inset 0px, 4px, 0px, #00000040;
+  border-radius: 5px;
+}
+
+.search-icon {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #5e5e5e82; /* Match the background color of the input */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.employee-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.employee-card {
+  background-color: #5e5e5e82;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.employee-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* UserDetails.css */
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.employee-info p {
+  margin: 5px 0; /* Adjust margin for spacing between paragraphs */
+}
+
+.employee-info .dob {
+  color: orange; /* Set color for date of birth */
+}
+
+.employee-info .role {
+  color: green; /* Set color for role */
+}
+
+/* UserDetails.css */
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+}
+
+.nav-button {
+  width: 181px; /* Adjust width */
+  height: 61px; /* Adjust height */
+  background: #38383880; /* Adjust background color */
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  opacity: 1;
+
+  margin-right: 10px; /* Add margin between buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+.nav-button .icon {
+  font-size: 1em; /* Make the icon three times bigger */
+  color: green; /* Set color to green */
+}
+.name {
+  color: white;
+}
+
+.id {
+  color: white;
+}
+
+.dob {
+  color: orange;
+}
+
+.role {
+  color: green;
+}
+
+.home,
+.home1 {
+  margin-right: 3px; /* Add margin between buttons */
+  height: 20px;
+  width: 30px;
+}
+
+.home1:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.home img,
+.home1 img {
+  display: block; /* Ensure the images are block-level elements */
+  max-width: 200%; /* Ensure the images scale properly */
+}
+
+.product {
+  top: 737px;
+  left: 430px;
+  width: 60px;
+  height: 30px;
+  /* UI Properties */
+  background: #38383880 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 5px solid #000000;
+  opacity: 1;
+  margin-left: 40px;
+}
+
+.product1 {
+  top: 739px;
+  left: 427px;
+  width: 20px;
+  height: 30px;
+  /* UI Properties */
+  background: transparent linear-gradient(262deg, #0f2323 0%, #0f2323 40%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 8px 4px 4px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #0f2323;
+  opacity: 1;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
